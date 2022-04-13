@@ -1,0 +1,2005 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/agus/ontologies/2022/2/tvseries"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/agus/ontologies/2022/2/tvseries">
+    <Prefix name="" IRI="http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Autor: Agustí Romero Pastor</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">TVSeries ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is a Ontology about TV Shows</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AdvisoryLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CastAndCrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpWriter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpisodeMembers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fantastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongSeries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miniseries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pilot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeriesCreator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeriesMusician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeriesProducer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShortSeries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spanish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Superhero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TVSeries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action/Adventure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appearsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncluded"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeUpOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPlayedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRatedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSpokenIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#plays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#belongsToSeason"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAgeClassification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCharacterName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCountry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFilmingLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLabel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberOfSeasons"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRuntime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSubgenre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSuperheroName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSynopsis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVariant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasReleasedOn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Actor_Antony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Actor_Erin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Actor_Jack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Actor_Karl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advisory_AC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advisory_GL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advisory_GV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advisory_N"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advisory_RP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advisory_SSC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char_Annie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char_Billy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char_Homelander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char_Hughie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char_Super_Starlight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Creator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Director_Sgriccia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Director_Shakman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Director_Trachtenberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genre_Children"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genre_Superheroes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Language_AR_es"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Language_ES_es"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Language_MX_es"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Language_UK_en"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Language_US_en"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Musician"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Producer_Moritz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Producer_Rogen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writer_Darick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writer_Erick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writer_Garth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writer_George"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Animation"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedy"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentary"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English"/>
+        <Class IRI="#Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpActor"/>
+        <Class IRI="#EpisodeMembers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpDirector"/>
+        <Class IRI="#EpisodeMembers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpWriter"/>
+        <Class IRI="#EpisodeMembers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpisodeMembers"/>
+        <Class IRI="#CastAndCrew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fantastic"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongSeries"/>
+        <Class IRI="#Series"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miniseries"/>
+        <Class IRI="#TVSeries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reality"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Series"/>
+        <Class IRI="#TVSeries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeriesCreator"/>
+        <Class IRI="#CastAndCrew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeriesMusician"/>
+        <Class IRI="#CastAndCrew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeriesProducer"/>
+        <Class IRI="#CastAndCrew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortSeries"/>
+        <Class IRI="#Series"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spanish"/>
+        <Class IRI="#Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Superhero"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TVSeries"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Genres"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action/Adventure"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AdvisoryLabel"/>
+        <Class IRI="#CastAndCrew"/>
+        <Class IRI="#Character"/>
+        <Class IRI="#Genres"/>
+        <Class IRI="#Language"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LongSeries"/>
+        <Class IRI="#ShortSeries"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Miniseries"/>
+        <Class IRI="#Series"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#Regular"/>
+        <Class IRI="#Special"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#EpActor"/>
+        <NamedIndividual IRI="#Actor_Antony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpActor"/>
+        <NamedIndividual IRI="#Actor_Erin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpActor"/>
+        <NamedIndividual IRI="#Actor_Jack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpActor"/>
+        <NamedIndividual IRI="#Actor_Karl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdvisoryLabel"/>
+        <NamedIndividual IRI="#Advisory_AC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdvisoryLabel"/>
+        <NamedIndividual IRI="#Advisory_GL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdvisoryLabel"/>
+        <NamedIndividual IRI="#Advisory_GV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdvisoryLabel"/>
+        <NamedIndividual IRI="#Advisory_N"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdvisoryLabel"/>
+        <NamedIndividual IRI="#Advisory_RP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AdvisoryLabel"/>
+        <NamedIndividual IRI="#Advisory_SSC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Char_Annie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Superhero"/>
+        <NamedIndividual IRI="#Char_Homelander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Superhero"/>
+        <NamedIndividual IRI="#Char_Super_Starlight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeriesCreator"/>
+        <NamedIndividual IRI="#Creator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpDirector"/>
+        <NamedIndividual IRI="#Director_Sgriccia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpDirector"/>
+        <NamedIndividual IRI="#Director_Shakman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpDirector"/>
+        <NamedIndividual IRI="#Director_Trachtenberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animation"/>
+        <NamedIndividual IRI="#Genre_Children"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantastic"/>
+        <NamedIndividual IRI="#Genre_Superheroes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spanish"/>
+        <NamedIndividual IRI="#Language_AR_es"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spanish"/>
+        <NamedIndividual IRI="#Language_ES_es"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spanish"/>
+        <NamedIndividual IRI="#Language_MX_es"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#English"/>
+        <NamedIndividual IRI="#Language_UK_en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#English"/>
+        <NamedIndividual IRI="#Language_US_en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeriesMusician"/>
+        <NamedIndividual IRI="#Musician"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeriesProducer"/>
+        <NamedIndividual IRI="#Producer_Moritz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeriesProducer"/>
+        <NamedIndividual IRI="#Producer_Rogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Series"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regular"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regular"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regular"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpWriter"/>
+        <NamedIndividual IRI="#Writer_Darick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpWriter"/>
+        <NamedIndividual IRI="#Writer_Erick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpWriter"/>
+        <NamedIndividual IRI="#Writer_Garth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpWriter"/>
+        <NamedIndividual IRI="#Writer_George"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Actor_Antony"/>
+        <NamedIndividual IRI="#Actor_Erin"/>
+        <NamedIndividual IRI="#Actor_Jack"/>
+        <NamedIndividual IRI="#Actor_Karl"/>
+        <NamedIndividual IRI="#Advisory_AC"/>
+        <NamedIndividual IRI="#Advisory_GL"/>
+        <NamedIndividual IRI="#Advisory_GV"/>
+        <NamedIndividual IRI="#Advisory_N"/>
+        <NamedIndividual IRI="#Advisory_SSC"/>
+        <NamedIndividual IRI="#Char_Annie"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+        <NamedIndividual IRI="#Char_Homelander"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+        <NamedIndividual IRI="#Creator"/>
+        <NamedIndividual IRI="#Director_Sgriccia"/>
+        <NamedIndividual IRI="#Director_Shakman"/>
+        <NamedIndividual IRI="#Director_Trachtenberg"/>
+        <NamedIndividual IRI="#Genre_Superheroes"/>
+        <NamedIndividual IRI="#Language_AR_es"/>
+        <NamedIndividual IRI="#Language_ES_es"/>
+        <NamedIndividual IRI="#Language_MX_es"/>
+        <NamedIndividual IRI="#Language_UK_en"/>
+        <NamedIndividual IRI="#Language_US_en"/>
+        <NamedIndividual IRI="#Musician"/>
+        <NamedIndividual IRI="#Producer_Moritz"/>
+        <NamedIndividual IRI="#Producer_Rogen"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <NamedIndividual IRI="#Writer_Darick"/>
+        <NamedIndividual IRI="#Writer_Erick"/>
+        <NamedIndividual IRI="#Writer_Garth"/>
+        <NamedIndividual IRI="#Writer_George"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#Actor_Antony"/>
+        <NamedIndividual IRI="#Char_Homelander"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#Actor_Erin"/>
+        <NamedIndividual IRI="#Char_Annie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#Actor_Erin"/>
+        <NamedIndividual IRI="#Char_Super_Starlight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#Actor_Jack"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#Actor_Karl"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Annie"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Homelander"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Homelander"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Char_Super_Starlight"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Creator"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Director_Sgriccia"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Director_Shakman"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Director_Trachtenberg"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defines"/>
+        <NamedIndividual IRI="#Genre_Superheroes"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Musician"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Producer_Moritz"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Producer_Rogen"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <NamedIndividual IRI="#Language_US_en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncluded"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Advisory_AC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Advisory_GL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Advisory_GV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Advisory_N"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Advisory_RP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <NamedIndividual IRI="#Advisory_SSC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <NamedIndividual IRI="#Advisory_AC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <NamedIndividual IRI="#Advisory_GL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <NamedIndividual IRI="#Advisory_GV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncluded"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <NamedIndividual IRI="#Advisory_AC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <NamedIndividual IRI="#Advisory_GL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <NamedIndividual IRI="#Advisory_N"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <NamedIndividual IRI="#Advisory_SSC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncluded"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Darick"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Darick"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Erick"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Erick"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Erick"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Garth"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Garth"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_Garth"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Writer_George"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Actor_Antony"/>
+        <Literal>Antony Starr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Actor_Erin"/>
+        <Literal>Erin Moriarty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Actor_Jack"/>
+        <Literal>Jack Quaid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Actor_Karl"/>
+        <Literal>Karl Urban</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLabel"/>
+        <NamedIndividual IRI="#Advisory_AC"/>
+        <Literal>Adult Content</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLabel"/>
+        <NamedIndividual IRI="#Advisory_GL"/>
+        <Literal>Graphic Language</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLabel"/>
+        <NamedIndividual IRI="#Advisory_GV"/>
+        <Literal>Graphic Violence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLabel"/>
+        <NamedIndividual IRI="#Advisory_N"/>
+        <Literal>Nudity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLabel"/>
+        <NamedIndividual IRI="#Advisory_RP"/>
+        <Literal>rape</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLabel"/>
+        <NamedIndividual IRI="#Advisory_SSC"/>
+        <Literal>Strong Sexual Content</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCharacterName"/>
+        <NamedIndividual IRI="#Char_Annie"/>
+        <Literal>Annie January</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCharacterName"/>
+        <NamedIndividual IRI="#Char_Billy"/>
+        <Literal>Billy Butcher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSuperheroName"/>
+        <NamedIndividual IRI="#Char_Homelander"/>
+        <Literal>Homelander</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCharacterName"/>
+        <NamedIndividual IRI="#Char_Hughie"/>
+        <Literal>Hughie Campbell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSuperheroName"/>
+        <NamedIndividual IRI="#Char_Super_Starlight"/>
+        <Literal>Starlight</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Creator"/>
+        <Literal>Eric Kripke</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Director_Sgriccia"/>
+        <Literal>Philip Sgriccia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Director_Shakman"/>
+        <Literal>Matt Shakman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Director_Trachtenberg"/>
+        <Literal>Dan Trachtenberg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSubgenre"/>
+        <NamedIndividual IRI="#Genre_Children"/>
+        <Literal>Children</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSubgenre"/>
+        <NamedIndividual IRI="#Genre_Superheroes"/>
+        <Literal>Superheroes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVariant"/>
+        <NamedIndividual IRI="#Language_AR_es"/>
+        <Literal>Spanish (Argentina)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVariant"/>
+        <NamedIndividual IRI="#Language_ES_es"/>
+        <Literal>Spanish (Spain)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVariant"/>
+        <NamedIndividual IRI="#Language_MX_es"/>
+        <Literal>Spanish (Mexico)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVariant"/>
+        <NamedIndividual IRI="#Language_UK_en"/>
+        <Literal>UK English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVariant"/>
+        <NamedIndividual IRI="#Language_US_en"/>
+        <Literal>US English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Musician"/>
+        <Literal>Christopher Lennertz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Producer_Moritz"/>
+        <Literal>Neal H. Mortiz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Producer_Rogen"/>
+        <Literal>Seth Rogen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAgeClassification"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal>18+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCountry"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal>United States</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal>Hamilton, Ontario, Canada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfSeasons"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSynopsis"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal>A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal>The Boys</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isProducedBy"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal>Amazon Studios, Kickstart Entertainment, Kripke Enterprises</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <NamedIndividual IRI="#Serie_TheBoys"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-26T21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#belongsToSeason"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal>Toronto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumber"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRuntime"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSynopsis"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal>Hugh &quot;Hughie&quot; Campbell suffers mental trauma after his girlfriend Robin is killed in a high-velocity impact with celebrity superhero A-Train. Lawyers offer a $45,000 settlement, which Hughie hesitates to accept. Aspiring superhero Annie January auditions as &quot;Starlight&quot; and is accepted to join the superhero group The Seven following the Lamplighter&apos;s retirement. Arriving at the Seven&apos;s headquarters, she is greeted by the Deep, who blackmails her into performing oral sex on him.[9] Vigilante Billy Butcher offers Hughie a chance to expose superhero corruption, taking him to a secret &quot;Supes Club&quot; to show him security footage of A-Train laughing about Robin&apos;s death. Butcher asks Hughie to take the settlement money and to secretly place a bug at Seven Tower, but Hughie initially refuses. In Central Park, Annie meets Hughie by happenstance and they motivate each other to stand up for themselves and face their challenges. Hughie plants the bug, but Translucent discovers it and confronts him. Butcher arrives and helps Hughie incapacitate Translucent. Elsewhere, Homelander destroys the mayor of Baltimore&apos;s plane while in flight, killing all passengers, in response to the mayor&apos;s attempt to blackmail Vought.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal>The Name of the Game</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <NamedIndividual IRI="#TB_Episode1x01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-26T21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#belongsToSeason"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal>Toronto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumber"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRuntime"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSynopsis"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal>Butcher and Hughie take Translucent to former partner Frenchie, who makes a meta-bullet to pierce the hero&apos;s diamond-hard skin, but it fails to kill him. Butcher turns to CIA Dept. Director Susan Raynor for the &quot;Mallory files&quot;, but she refuses. Vought VP Madelyn Stillwell tells Homelander about evidence Deep found incriminating him for the plane crash, so she handles it while he talks to Deep. While working with the Deep, Starlight promises to kill him if he tries to sexually assault her again. Stillwell uses shapeshifting Supe Doppelganger to blackmail Senator Calhoun into allowing a vote that could enable Vought to contract superheroes to the military. Annie stops a rape, unaware she is being recorded. Her agent, Ashley, reprimands her potentially causing negative exposure and legal implications. While Homelander searches for Translucent, Frenchie decides to place C-4 explosives in Translucent&apos;s colon, who fearfully reveals A-Train was with his girlfriend Popclaw before he killed Robin. The Boys learn Homelander is nearby, so they cannot risk killing Translucent with an explosion. While Frenchie and Butcher create a distraction elsewhere with another explosion, Translucent escapes his cage and convinces Hughie to let him go. However, Hughie changes his mind and detonates the C-4, killing Translucent.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal>Cherry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <NamedIndividual IRI="#TB_Episode1x02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-26T21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#belongsToSeason"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal>Toronto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumber"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRuntime"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSynopsis"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal>Hughie moves out after telling his father how he truly feels. Starlight gains positive publicity for stopping the rape, but subsequently learns Stillwell wants her to wear a revealing costume. She declines, but Stillwell forces her to do so lest she lose her job. Butcher brings in his former friend, Mother&apos;s Milk, to run surveillance on Popclaw by having Hughie install spyware on her computer, and they learn that A-Train takes a drug called Compound V. Butcher wants to expose them before Supes can be allowed into the United States Armed Forces but requires a vial of Compound V from A-Train&apos;s upcoming race with another speedster, Shockwave. Beforehand, Hughie meets Annie and invites her to lunch, where they open up to each other, while A-Train secretly uses Compound V to win and publicly announces he is single, breaking his promise to Popclaw to announce their relationship. With MM deducing Popclaw swiped some vials, the Boys find her heartbroken, high, and in the midst of killing her landlord during hyper-charged sex. Butcher uses this to blackmail Popclaw as an informant. At Vought headquarters, Homelander presents Translucent&apos;s remains to Stillwell along with Butcher&apos;s message, &quot;COMING FOR YOU&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal>Get Some</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <NamedIndividual IRI="#TB_Episode1x03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-26T21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Writer_Darick"/>
+        <Literal>Darick Robertson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Writer_Erick"/>
+        <Literal>Erick Kripke</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Writer_Garth"/>
+        <Literal>Garth Ennis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Writer_George"/>
+        <Literal>George Mastras</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#appearsIn"/>
+        <ObjectProperty IRI="#hasActor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#isIncluded"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#defines"/>
+        <ObjectProperty IRI="#hasGenre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <ObjectProperty IRI="#isSpokenIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMadeUpOf"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPlayedBy"/>
+        <ObjectProperty IRI="#plays"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasGenre"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isMadeIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isSpokenIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#plays"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#defines"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isPlayedBy"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#appearsIn"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#contains"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasActor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isIncluded"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isMadeUpOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isRatedWith"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appearsIn"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#Genres"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIncluded"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMadeUpOf"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#EpisodeMembers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPlayedBy"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSpokenIn"/>
+        <Class IRI="#Language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="#EpActor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appearsIn"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIncluded"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <Class IRI="#Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMadeUpOf"/>
+        <Class IRI="#EpisodeMembers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPlayedBy"/>
+        <Class IRI="#EpActor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRatedWith"/>
+        <Class IRI="#AdvisoryLabel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSpokenIn"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#belongsToSeason"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasAgeClassification"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasCharacterName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasCountry"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasFilmingLocation"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasLabel"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNumber"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNumberOfSeasons"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasRuntime"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSubgenre"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSuperheroName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSynopsis"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTitle"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasVariant"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isProducedBy"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#wasReleasedOn"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#belongsToSeason"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAgeClassification"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCharacterName"/>
+        <Class IRI="#Character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCountry"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLabel"/>
+        <Class IRI="#AdvisoryLabel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#EpActor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#EpDirector"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#EpWriter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#SeriesCreator"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#SeriesMusician"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#SeriesProducer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumber"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumberOfSeasons"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRuntime"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSubgenre"/>
+        <Class IRI="#Genres"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSuperheroName"/>
+        <Class IRI="#Superhero"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSynopsis"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSynopsis"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVariant"/>
+        <Class IRI="#Language"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isProducedBy"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <Class IRI="#TVSeries"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#belongsToSeason"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAgeClassification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCharacterName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCountry"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFilmingLocation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIMDB_Rating"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLabel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumber"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberOfSeasons"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRuntime"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSubgenre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSuperheroName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSynopsis"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVariant"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isProducedBy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasReleasedOn"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An Episode with duration of more than 60 minutes, is an Special one</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Episode"/>
+                <Variable IRI="#e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasRuntime"/>
+                <Variable IRI="#e"/>
+                <Variable IRI="#r"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
+                <Variable IRI="#r"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Special"/>
+                <Variable IRI="#e"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A Series with more than 3 seasons is qualified as LongSeries</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R1</Literal>
+        </Annotation>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasNumberOfSeasons"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#n"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Series"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
+                <Variable IRI="#n"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#LongSeries"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A Series with les than 3 seasons is qualified as ShortSeries</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R2</Literal>
+        </Annotation>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasNumberOfSeasons"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#n"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Series"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThan">
+                <Variable IRI="#n"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#ShortSeries"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AdvisoryLabel</IRI>
+        <Literal xml:lang="en">This class denotes Content advisory system Label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Animation</IRI>
+        <Literal xml:lang="en">This class denotes Animation genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CastAndCrew</IRI>
+        <Literal xml:lang="en">This class denotes members of the entire TVSeries or some Episodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Character</IRI>
+        <Literal xml:lang="en">This class denotes Series Character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Character</IRI>
+        <Literal>https://dbpedia.org/ontology/FictionalCharacter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comedy</IRI>
+        <Literal xml:lang="en">This class denotes Comedy genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Documentary</IRI>
+        <Literal xml:lang="en">This class denotes Documentary genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drama</IRI>
+        <Literal xml:lang="en">This class denotes drama genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#English</IRI>
+        <Literal xml:lang="en">This clase denotes English language variants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EpActor</IRI>
+        <Literal xml:lang="en">This class denotes Episode Actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EpDirector</IRI>
+        <Literal xml:lang="en">This class denotes Episode Directors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EpWriter</IRI>
+        <Literal xml:lang="en">This class denotes Episode Writer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Episode</IRI>
+        <Literal xml:lang="en">This class denotes Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EpisodeMembers</IRI>
+        <Literal>This class denotes members that work in some Episodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fantastic</IRI>
+        <Literal xml:lang="en">This class denotes fantastic genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Genres</IRI>
+        <Literal xml:lang="en">This classe denotes the main genres of a TVSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Genres</IRI>
+        <Literal>https://dbpedia.org/page/Category:Film_series_by_genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Language</IRI>
+        <Literal xml:lang="en">This class denotes language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Language</IRI>
+        <Literal>https://dbpedia.org/page/Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LongSeries</IRI>
+        <Literal>This class denotes series composed of 3 or more seasons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Miniseries</IRI>
+        <Literal xml:lang="en">This class denotes the type Miniseries, so TVseries with limited number of episodes, and a definite beginning, middle, and end.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pilot</IRI>
+        <Literal xml:lang="en">This classe denotes a Pilot Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reality</IRI>
+        <Literal xml:lang="en">This class denotes reality genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regular</IRI>
+        <Literal xml:lang="en">This classe denotes a Regular Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">This class denotes the type of series composed of several seasons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeriesCreator</IRI>
+        <Literal xml:lang="en">This class denotes Series Creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeriesMusician</IRI>
+        <Literal xml:lang="en">This class denotes Series Musician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeriesProducer</IRI>
+        <Literal xml:lang="en">This class denotes Episode Producer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ShortSeries</IRI>
+        <Literal>This class denotes series composed of 1 or 2 seasons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Spanish</IRI>
+        <Literal xml:lang="en">This clase denotes Spanish language variants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Special</IRI>
+        <Literal xml:lang="en">This classe denotes an Special Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Superhero</IRI>
+        <Literal xml:lang="en">This class denotes Superhero type of character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TVSeries</IRI>
+        <Literal xml:lang="en">This class denotes TVSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belongsToSeason</IRI>
+        <Literal xml:lang="en">indicates that an Episode belongs to a concrete Season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAgeClassification</IRI>
+        <Literal xml:lang="en">Indicates TVSeries Age Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacterName</IRI>
+        <Literal xml:lang="en">Indicates Name of the character played by an actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCountry</IRI>
+        <Literal xml:lang="en">Indicates TVSeries Country of origin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFilmingLocation</IRI>
+        <Literal xml:lang="en">indicates the Location where TVSeries or Episode is filmed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasIMDB_Rating</IRI>
+        <Literal xml:lang="en">Indicates Episode and TVSeries have a rating on IMDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLabel</IRI>
+        <Literal>Indicates wich labels contains AdvisoryLabel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasName</IRI>
+        <Literal xml:lang="en">indicates name of Members of cast &amp; crew</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNumber</IRI>
+        <Literal xml:lang="en">Indicates the number of an episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNumberOfSeasons</IRI>
+        <Literal xml:lang="en">Indicates the numer of seasons of the TVSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRuntime</IRI>
+        <Literal xml:lang="en">Indicates the duration of an Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSuperheroName</IRI>
+        <Literal xml:lang="en">Indicates the name of a Superhero in case the character is one of them</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSynopsis</IRI>
+        <Literal xml:lang="en">Indicates a brief summary of the TVSeries or Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTitle</IRI>
+        <Literal xml:lang="en">Indicates the Title of the TVSeries or Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVariant</IRI>
+        <Literal xml:lang="en">Indicates the Variant of a language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMadeIn</IRI>
+        <Literal xml:lang="en">a firm is made in a Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMemberOf</IRI>
+        <Literal xml:lang="en">an actor/director/producer/writer is member of an episode
+a series creator/musician is member of TVSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isProducedBy</IRI>
+        <Literal xml:lang="en">Indicates the companies that produce the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plays</IRI>
+        <Literal xml:lang="en">an actor plays a character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wasReleasedOn</IRI>
+        <Literal xml:lang="en">Indicates the data when TVSeries or Episode was released</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Action/Adventure</IRI>
+        <Literal xml:lang="en">This class denotes Action and Adventure genres</Literal>
+    </AnnotationAssertion>
+    <DatatypeDefinition>
+        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DatatypeDefinition>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

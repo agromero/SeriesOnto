@@ -1,0 +1,1635 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasGenre"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Antony"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Erin"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Jack"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Karl"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_AC"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GL"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GV"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_N"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_SSC"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Annie"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Billy"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Homelander"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Hughie"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Creator"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Director_Sgriccia"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Director_Shakman"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Director_Trachtenberg"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genre_Superheroes"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_AR_es"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_ES_es"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_MX_es"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_UK_en"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_US_en"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Musician"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Producer_Moritz"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Producer_Rogen"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_Darick"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_Erick"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_Garth"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_George"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#CastAndCrew"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Episode with duration of more than 60 minutes, is an Special one"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid55"
+    }, {
+      "@id" : "_:genid53"
+    }, {
+      "@id" : "_:genid49"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid57"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#r"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "60"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasRuntime"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Special"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Series with more than 3 seasons is qualified as LongSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid66"
+    }, {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid60"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid68"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#n"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumberOfSeasons"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#LongSeries"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Series with les than 3 seasons is qualified as ShortSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "R2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid77"
+    }, {
+      "@id" : "_:genid75"
+    }, {
+      "@id" : "_:genid71"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid79"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#n"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumberOfSeasons"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#ShortSeries"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Pilot"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Regular"
+    }, {
+      "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Special"
+    } ]
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Autor: Agustí Romero Pastor"
+  }, {
+    "@language" : "en",
+    "@value" : "TVSeries ontology"
+  }, {
+    "@language" : "en",
+    "@value" : "This is a Ontology about TV Shows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Action/Adventure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Action and Adventure genres"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Antony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Antony Starr"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#plays" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Homelander"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Erin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Erin Moriarty"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#plays" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Annie"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Super_Starlight"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Jack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Jack Quaid"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#plays" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Hughie"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Actor_Karl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Karl Urban"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#plays" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Billy"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Content advisory system Label"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_AC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel" : [ {
+    "@value" : "Adult Content"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel" : [ {
+    "@value" : "Graphic Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel" : [ {
+    "@value" : "Graphic Violence"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_N",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel" : [ {
+    "@value" : "Nudity"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_RP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel" : [ {
+    "@value" : "rape"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_SSC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel" : [ {
+    "@value" : "Strong Sexual Content"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Animation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Animation genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#CastAndCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes members of the entire TVSeries or some Episodes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Annie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasCharacterName" : [ {
+    "@value" : "Annie January"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Billy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasCharacterName" : [ {
+    "@value" : "Billy Butcher"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Homelander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSuperheroName" : [ {
+    "@value" : "Homelander"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Superhero"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Hughie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasCharacterName" : [ {
+    "@value" : "Hughie Campbell"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Char_Super_Starlight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSuperheroName" : [ {
+    "@value" : "Starlight"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Superhero"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Series Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/ontology/FictionalCharacter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Comedy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Comedy genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Eric Kripke"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesCreator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Director_Sgriccia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Philip Sgriccia"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpDirector"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Director_Shakman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Matt Shakman"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpDirector"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Director_Trachtenberg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Dan Trachtenberg"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpDirector"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Documentary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Documentary genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Drama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes drama genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#English",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This clase denotes English language variants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Episode Actors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpisodeMembers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Episode Directors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpisodeMembers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpWriter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Episode Writer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpisodeMembers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpisodeMembers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class denotes members that work in some Episodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#CastAndCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Fantastic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes fantastic genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genre_Children",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSubgenre" : [ {
+    "@value" : "Children"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Animation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genre_Superheroes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#defines" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSubgenre" : [ {
+    "@value" : "Superheroes"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Fantastic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This classe denotes the main genres of a TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Category:Film_series_by_genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_AR_es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasVariant" : [ {
+    "@value" : "Spanish (Argentina)"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Spanish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_ES_es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasVariant" : [ {
+    "@value" : "Spanish (Spain)"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Spanish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_MX_es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasVariant" : [ {
+    "@value" : "Spanish (Mexico)"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Spanish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_UK_en",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasVariant" : [ {
+    "@value" : "UK English"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_US_en",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasVariant" : [ {
+    "@value" : "US English"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#LongSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class denotes series composed of 3 or more seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#ShortSeries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Miniseries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes the type Miniseries, so TVseries with limited number of episodes, and a definite beginning, middle, and end."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Musician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Christopher Lennertz"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesMusician"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Pilot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This classe denotes a Pilot Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Producer_Moritz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Neal H. Mortiz"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesProducer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Producer_Rogen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Seth Rogen"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesProducer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Reality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes reality genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Regular",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This classe denotes a Regular Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasAgeClassification" : [ {
+    "@value" : "18+"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasCountry" : [ {
+    "@value" : "United States"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasFilmingLocation" : [ {
+    "@value" : "Hamilton, Ontario, Canada"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasIMDB_Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.7"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumberOfSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSynopsis" : [ {
+    "@value" : "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers."
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasTitle" : [ {
+    "@value" : "The Boys"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMadeIn" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language_US_en"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isProducedBy" : [ {
+    "@value" : "Amazon Studios, Kickstart Entertainment, Kripke Enterprises"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#wasReleasedOn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-26T21:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes the type of series composed of several seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Series Creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#CastAndCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesMusician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Series Musician"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#CastAndCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Episode Producer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#CastAndCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#ShortSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class denotes series composed of 1 or 2 seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Series"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Spanish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This clase denotes Spanish language variants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Special",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This classe denotes an Special Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Superhero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes Superhero type of character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#belongsToSeason" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasFilmingLocation" : [ {
+    "@value" : "Toronto"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasIMDB_Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.2"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasRuntime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "60"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSynopsis" : [ {
+    "@value" : "Hugh \"Hughie\" Campbell suffers mental trauma after his girlfriend Robin is killed in a high-velocity impact with celebrity superhero A-Train. Lawyers offer a $45,000 settlement, which Hughie hesitates to accept. Aspiring superhero Annie January auditions as \"Starlight\" and is accepted to join the superhero group The Seven following the Lamplighter's retirement. Arriving at the Seven's headquarters, she is greeted by the Deep, who blackmails her into performing oral sex on him.[9] Vigilante Billy Butcher offers Hughie a chance to expose superhero corruption, taking him to a secret \"Supes Club\" to show him security footage of A-Train laughing about Robin's death. Butcher asks Hughie to take the settlement money and to secretly place a bug at Seven Tower, but Hughie initially refuses. In Central Park, Annie meets Hughie by happenstance and they motivate each other to stand up for themselves and face their challenges. Hughie plants the bug, but Translucent discovers it and confronts him. Butcher arrives and helps Hughie incapacitate Translucent. Elsewhere, Homelander destroys the mayor of Baltimore's plane while in flight, killing all passengers, in response to the mayor's attempt to blackmail Vought."
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasTitle" : [ {
+    "@value" : "The Name of the Game"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isIncluded" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isRatedWith" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_AC"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GL"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GV"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_N"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_RP"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_SSC"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#wasReleasedOn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-26T21:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Regular"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#belongsToSeason" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#contains" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_AC"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GL"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GV"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasFilmingLocation" : [ {
+    "@value" : "Toronto"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasIMDB_Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "7.8"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasRuntime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "60"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSynopsis" : [ {
+    "@value" : "Butcher and Hughie take Translucent to former partner Frenchie, who makes a meta-bullet to pierce the hero's diamond-hard skin, but it fails to kill him. Butcher turns to CIA Dept. Director Susan Raynor for the \"Mallory files\", but she refuses. Vought VP Madelyn Stillwell tells Homelander about evidence Deep found incriminating him for the plane crash, so she handles it while he talks to Deep. While working with the Deep, Starlight promises to kill him if he tries to sexually assault her again. Stillwell uses shapeshifting Supe Doppelganger to blackmail Senator Calhoun into allowing a vote that could enable Vought to contract superheroes to the military. Annie stops a rape, unaware she is being recorded. Her agent, Ashley, reprimands her potentially causing negative exposure and legal implications. While Homelander searches for Translucent, Frenchie decides to place C-4 explosives in Translucent's colon, who fearfully reveals A-Train was with his girlfriend Popclaw before he killed Robin. The Boys learn Homelander is nearby, so they cannot risk killing Translucent with an explosion. While Frenchie and Butcher create a distraction elsewhere with another explosion, Translucent escapes his cage and convinces Hughie to let him go. However, Hughie changes his mind and detonates the C-4, killing Translucent."
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasTitle" : [ {
+    "@value" : "Cherry"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isIncluded" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#wasReleasedOn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-26T21:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Regular"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#belongsToSeason" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#contains" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_AC"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_GL"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_N"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Advisory_SSC"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasFilmingLocation" : [ {
+    "@value" : "Toronto"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasIMDB_Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.0"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasRuntime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "55"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSynopsis" : [ {
+    "@value" : "Hughie moves out after telling his father how he truly feels. Starlight gains positive publicity for stopping the rape, but subsequently learns Stillwell wants her to wear a revealing costume. She declines, but Stillwell forces her to do so lest she lose her job. Butcher brings in his former friend, Mother's Milk, to run surveillance on Popclaw by having Hughie install spyware on her computer, and they learn that A-Train takes a drug called Compound V. Butcher wants to expose them before Supes can be allowed into the United States Armed Forces but requires a vial of Compound V from A-Train's upcoming race with another speedster, Shockwave. Beforehand, Hughie meets Annie and invites her to lunch, where they open up to each other, while A-Train secretly uses Compound V to win and publicly announces he is single, breaking his promise to Popclaw to announce their relationship. With MM deducing Popclaw swiped some vials, the Boys find her heartbroken, high, and in the midst of killing her landlord during hyper-charged sex. Butcher uses this to blackmail Popclaw as an informant. At Vought headquarters, Homelander presents Translucent's remains to Stillwell along with Butcher's message, \"COMING FOR YOU\"."
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasTitle" : [ {
+    "@value" : "Get Some"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isIncluded" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Serie_TheBoys"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#wasReleasedOn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-26T21:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Regular"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class denotes TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_Darick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Darick Robertson"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpWriter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_Erick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Erick Kripke"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpWriter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_Garth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "Garth Ennis"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x01"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x02"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpWriter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Writer_George",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName" : [ {
+    "@value" : "George Mastras"
+  } ],
+  "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TB_Episode1x03"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpWriter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#appearsIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasActor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#belongsToSeason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "indicates that an Episode belongs to a concrete Season"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isIncluded"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#defines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasGenre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#e",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasAgeClassification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates TVSeries Age Classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasCharacterName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates Name of the character played by an actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates TVSeries Country of origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasFilmingLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "indicates the Location where TVSeries or Episode is filmed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasIMDB_Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates Episode and TVSeries have a rating on IMDB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates wich labels contains AdvisoryLabel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "indicates name of Members of cast & crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpDirector"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpWriter"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesCreator"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesMusician"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#SeriesProducer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the number of an episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasNumberOfSeasons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the numer of seasons of the TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasRuntime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the duration of an Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSubgenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Genres"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSuperheroName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the name of a Superhero in case the character is one of them"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Superhero"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasSynopsis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates a brief summary of the TVSeries or Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the Title of the TVSeries or Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#hasVariant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the Variant of a language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isIncluded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMadeIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a firm is made in a Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isSpokenIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMadeUpOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpisodeMembers"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "an actor/director/producer/writer is member of an episode\na series creator/musician is member of TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpisodeMembers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isPlayedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#plays"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isProducedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the companies that produce the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isRatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#AdvisoryLabel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#isSpokenIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#n",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#plays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "an actor plays a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#EpActor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#s",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#wasReleasedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the data when TVSeries or Episode was released"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#Episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/agus/ontologies/2022/2/tvseries#TVSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+} ]
